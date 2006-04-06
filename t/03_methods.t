@@ -18,6 +18,11 @@ sub dispatch_foo {
     $self->debug('foo' => 'bar');
 }
 
+__PACKAGE__->add_trigger(BEFORE_DISPATCH => sub {
+    my $self = shift;
+    $self->debug('mmm' => 'iyan');
+});
+
 package main;
 my $d = $Mock::Pages::TMPL_PATH;
 $Mock::Pages::TMPL_PATH = 't/tmpl';

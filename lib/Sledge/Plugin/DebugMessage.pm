@@ -1,7 +1,7 @@
 package Sledge::Plugin::DebugMessage;
 use strict;
 use warnings;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Jcode;
 use Data::Dumper;
@@ -62,7 +62,7 @@ sub debug {
 
     if ($self->debug_level) {
         my ($package, $filename, $line) = caller(0);
-        my $page = $self->page;
+        my $page = $self->page || 'index';
         my $dumped = Dumper(@_);
         my $dbg_line = "$page, $package($line) : $msg : $dumped";
         if ($self->session) {
