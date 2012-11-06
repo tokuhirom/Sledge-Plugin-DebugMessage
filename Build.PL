@@ -9,6 +9,7 @@ my $build = Module::Build->new(
     build_requires       => { 'Test::More' => '0.98' },
     configure_requires   => { 'Module::Build' => '0.38' },
     requires             => {
+        perl             => '5.008001',
         'Test::More'     => '0.32',
         'Data::Dumper'   => '2.121',
         'Bundle::Sledge' => '0',

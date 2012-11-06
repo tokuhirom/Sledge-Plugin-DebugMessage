@@ -27,6 +27,7 @@ requires:
   Jcode: 0.88
   Template: 2.14
   Test::More: 0.32
+  perl: 5.008001
 resources:
   license: http://dev.perl.org/licenses/
 version: 0.03
