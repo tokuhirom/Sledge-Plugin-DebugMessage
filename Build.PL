@@ -12,7 +12,7 @@ my $build = Module::Build->new(
         perl             => '5.008001',
         'Test::More'     => '0.32',
         'Data::Dumper'   => '2.121',
-        'Bundle::Sledge' => '0',
+        'Sledge::Pages::Base' => '0',
         'Jcode'          => '0.88',
         'Template'       => '2.14'
     },

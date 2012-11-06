@@ -1,7 +1,7 @@
 ---
 abstract: 'show the debug message'
 author:
-  - unknown
+  - 'MATSUNO Tokuhiro E<lt>tokuhirom@gmail.comE<gt>'
 build_requires:
   Test::More: 0.98
 configure_requires:
@@ -22,9 +22,9 @@ provides:
     file: lib/Sledge/Plugin/DebugMessage.pm
     version: 0.03
 requires:
-  Bundle::Sledge: 0
   Data::Dumper: 2.121
   Jcode: 0.88
+  Sledge::Pages::Base: 0
   Template: 2.14
   Test::More: 0.32
   perl: 5.008001

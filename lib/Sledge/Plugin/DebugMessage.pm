@@ -117,7 +117,7 @@ set the debug message.
 
 =head1 AUTHOR
 
-MATSUNO Tokuhiro E<lt>tokuhiro at mobilefactory.jpE<gt>
+MATSUNO Tokuhiro E<lt>tokuhirom@gmail.comE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
