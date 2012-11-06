@@ -1,5 +1,8 @@
 Revision history for Perl extension Sledge::Plugin::DebugMessage
 
+0.04
+    - modernize package(no feature changes)
+
 0.03  Thu Apr 06 11:26:33 2006
     - don't show 'Use of uninitialized value in concatenation (.) or string'
 

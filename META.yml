@@ -20,7 +20,7 @@ no_index:
 provides:
   Sledge::Plugin::DebugMessage:
     file: lib/Sledge/Plugin/DebugMessage.pm
-    version: 0.03
+    version: 0.04
 requires:
   Data::Dumper: 2.121
   Jcode: 0.88
@@ -30,4 +30,4 @@ requires:
   perl: 5.008001
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
