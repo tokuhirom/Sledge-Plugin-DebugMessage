@@ -105,7 +105,7 @@ Sledge::Plugin::DebugMessage - show the debug message
 Sledge::Plugin::DebugMessage is debug utility for Sledge.
 
 You can see the request, template parameters, session parameters,
-and any debug messages, in your html footer.
+and any debug messages, in your HTML footer.
 
 =head1 METHODS
 
